@@ -2,6 +2,19 @@
 
 // Complete this algo
 const binarySearch = (array, target) => {
+ if (array.length === 1){
+	 if (array[0] === target){
+		 return true
+	 }
+	 else {
+		 return false
+	 }
+ }
+ else {
+	 const midpoint = Math.floor(array.length/2)
+	 const left = array.slice(0, midpoint)
+	 const right = array.slice(midpoint, array.length-1)
+ }
 	
 };
 
